@@ -13,6 +13,7 @@ class Simon
     while game_over == false
       take_turn
     end
+    game_over_message
     reset_game
   end
 
